@@ -515,7 +515,7 @@ const htmlTemplate = (params) => `<!DOCTYPE html>
 </html>
 `;
 
-const STATIC_ASSETS_BASE = "/_nuxt/Users/ramonwanderley/Repositories/-Bruno-is-going-to-be-a-father-/dist" + "/" + "1645971490";
+const STATIC_ASSETS_BASE = "/_nuxt/Users/ramonwanderley/Repositories/-Bruno-is-going-to-be-a-father-/dist" + "/" + "1645972471";
 const PAYLOAD_JS = "/payload.js";
 const getClientManifest = cachedImport(() => import('./client.manifest.mjs'));
 const getSSRApp = cachedImport(() => import('./server.mjs'));

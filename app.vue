@@ -4,7 +4,7 @@
       <div class="before"></div>
       <div class="after"></div>
     </div>
-    <transition name="fade" mode="out-in">
+    
       <div v-if="loading" class="loader loader--style8" title="7">
         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
           width="96px" height="120px" viewBox="0 0 24 30" style="enable-background:new 0 0 50 50;" xml:space="preserve">
@@ -49,7 +49,6 @@
           
         </div>
       </div>
-    </transition>
    
   </div>
 </template>
@@ -57,8 +56,8 @@
   export default {
     data() {
       return {
-        confirmed: false,
-        isFather: false,
+        confirmed: true,
+        isFather: true,
         days: 18, 
         loading: true,
       }

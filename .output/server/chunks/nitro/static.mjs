@@ -13,22 +13,22 @@ import 'unenv/runtime/fetch/index';
 import 'defu';
 
 const assets = {
-  "/_nuxt/entry-bc359263.mjs": {
+  "/_nuxt/entry-31300503.mjs": {
     "type": "application/javascript",
     "etag": "\"14d5a-IhgyzKQQgEfi84EdToZ/iitkT5k\"",
-    "mtime": "2022-02-27T14:18:13.960Z",
-    "path": "../public/_nuxt/entry-bc359263.mjs"
+    "mtime": "2022-02-27T14:34:35.070Z",
+    "path": "../public/_nuxt/entry-31300503.mjs"
   },
-  "/_nuxt/entry.20a863e9.css": {
+  "/_nuxt/entry.c8dc16aa.css": {
     "type": "text/css; charset=utf-8",
-    "etag": "\"40c4-G7ZuBNwSzdc3efxM24wWInszlXc\"",
-    "mtime": "2022-02-27T14:18:13.959Z",
-    "path": "../public/_nuxt/entry.20a863e9.css"
+    "etag": "\"403c-t+wCKCir9DIzWGb6grMAYx0Pukk\"",
+    "mtime": "2022-02-27T14:34:35.069Z",
+    "path": "../public/_nuxt/entry.c8dc16aa.css"
   },
   "/_nuxt/manifest.json": {
     "type": "application/json",
-    "etag": "\"cd-TWP0ndTEutUNQcd8Ld2hK2F30tg\"",
-    "mtime": "2022-02-27T14:18:13.958Z",
+    "etag": "\"cd-3hEc6A/HGoiBKb58hbWx6uw6opA\"",
+    "mtime": "2022-02-27T14:34:35.067Z",
     "path": "../public/_nuxt/manifest.json"
   }
 };
@@ -45,7 +45,7 @@ function getAsset (id) {
 
 const METHODS = ["HEAD", "GET"];
 const TWO_DAYS = 2 * 60 * 60 * 24;
-const STATIC_ASSETS_BASE = "/_nuxt/Users/ramonwanderley/Repositories/-Bruno-is-going-to-be-a-father-/dist" + "/" + "1645971490";
+const STATIC_ASSETS_BASE = "/_nuxt/Users/ramonwanderley/Repositories/-Bruno-is-going-to-be-a-father-/dist" + "/" + "1645972471";
 async function serveStatic(req, res) {
   if (!METHODS.includes(req.method)) {
     return;
