@@ -79,7 +79,7 @@ body {
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;0,900;1,900&display=swap');
   .main-body {
     height: 100%;
-    min-height: calc(100vh - 16px);
+    min-height: 100vh;
     width: 100%;
     display: flex;
   }
